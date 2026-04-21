@@ -1,0 +1,8 @@
+compatibility_flags = [ "nodejs_compat" ]
+# Set this to today's date
+compatibility_date = "2026-04-21"
+
+[[hyperdrive]]
+binding = "HYPERDRIVE"
+id = "<your-hyperdrive-id-here>"
+DATABASE_URL = "postgresql://hyperdrive-user:npg_ASzLq3jMHUs9@ep-aged-heart-alvkfr22-pooler.c-3.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
